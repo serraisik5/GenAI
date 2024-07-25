@@ -20,4 +20,14 @@ I aimed to investigate recent trends in TikTok and recent informations about the
 
 The Segment Anything Model (SAM) is activated to create a mask around the object, choosing the most accurate mask generated. Then the user gives a text description to specify a new background for the selected object. An infill model (`diffusers/stable-diffusion-xl-1.0-inpainting-0.1`) then creates this new background, and the final image is displayed. Optionally, the user can choose to invert the mask and substitute the subject while keeping the background. 
 
+### Home Match ###
 
+##### Personalized Real Estate Agent 
+
+* Generate real estate listings using a Large Language Model.
+* Storing Listings in a Vector Database (LanceDB).
+* Create embeddings that capture the semantic content of each listing.
+* Semantic Search based on user real estate preferences.
+* For each retrieved listing, use the LLM to augment the description, tailoring it to resonate with the buyer’s specific preferences.
+
+  
